@@ -18,6 +18,7 @@
 		583F842819A1826F00F140AE /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 583F840719A1826F00F140AE /* Cocoa.framework */; };
 		583F843019A1826F00F140AE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 583F842E19A1826F00F140AE /* InfoPlist.strings */; };
 		583F843219A1826F00F140AE /* XIBFontReplaceTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 583F843119A1826F00F140AE /* XIBFontReplaceTests.m */; };
+		583F843D19A1893600F140AE /* JTFontReplacer.m in Sources */ = {isa = PBXBuildFile; fileRef = 583F843C19A1893600F140AE /* JTFontReplacer.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +51,8 @@
 		583F842D19A1826F00F140AE /* XIBFontReplaceTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "XIBFontReplaceTests-Info.plist"; sourceTree = "<group>"; };
 		583F842F19A1826F00F140AE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		583F843119A1826F00F140AE /* XIBFontReplaceTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XIBFontReplaceTests.m; sourceTree = "<group>"; };
+		583F843B19A1893600F140AE /* JTFontReplacer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JTFontReplacer.h; sourceTree = "<group>"; };
+		583F843C19A1893600F140AE /* JTFontReplacer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JTFontReplacer.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,6 +123,8 @@
 				583F841C19A1826F00F140AE /* MainMenu.xib */,
 				583F841F19A1826F00F140AE /* Images.xcassets */,
 				583F840E19A1826F00F140AE /* Supporting Files */,
+				583F843B19A1893600F140AE /* JTFontReplacer.h */,
+				583F843C19A1893600F140AE /* JTFontReplacer.m */,
 			);
 			path = XIBFontReplace;
 			sourceTree = "<group>";
@@ -255,6 +260,7 @@
 			files = (
 				583F841B19A1826F00F140AE /* JTAppDelegate.m in Sources */,
 				583F841419A1826F00F140AE /* main.m in Sources */,
+				583F843D19A1893600F140AE /* JTFontReplacer.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
