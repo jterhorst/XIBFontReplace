@@ -13,5 +13,6 @@
 - (void)replaceSystemFontWithFontString:(NSString *)stringFontName familyName:(NSString *)stringFamilyName inFileAtURL:(NSURL *)fileURL;
 - (void)replaceBoldSystemFontWithFontString:(NSString *)stringFontName familyName:(NSString *)stringFamilyName inFileAtURL:(NSURL *)fileURL;
 - (void)replaceItalicSystemFontWithFontString:(NSString *)stringFontName familyName:(NSString *)stringFamilyName inFileAtURL:(NSURL *)fileURL;
+- (void)replaceLightFontWithFontString:(NSString *)stringFontName familyName:(NSString *)stringFamilyName inFileAtURL:(NSURL *)fileURL;
 
 @end
