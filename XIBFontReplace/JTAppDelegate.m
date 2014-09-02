@@ -37,6 +37,7 @@
 				[fontReplacer replaceSystemFontWithFontString:@"AvenirNext-DemiBold" familyName:@"Avenir Next" inFileAtURL:fileURL];
 				[fontReplacer replaceBoldSystemFontWithFontString:@"AvenirNext-Bold" familyName:@"Avenir Next" inFileAtURL:fileURL];
 				[fontReplacer replaceItalicSystemFontWithFontString:@"AvenirNext-DemiBoldItalic" familyName:@"Avenir Next" inFileAtURL:fileURL];
+				[fontReplacer replaceLightFontWithFontString:@"AvenirNext-Regular" familyName:@"Avenir Next" inFileAtURL:fileURL];
 			}
 		}
 	}
